@@ -1,0 +1,585 @@
+*{margin: 0;padding: 0;font-family: 微软雅黑;box-sizing:border-box;}
+h2,h3,h4{font-weight: normal;}
+header{
+	width: 100%;
+	height: 61px;
+	position: relative;
+	line-height: 60px;
+	vertical-align: middle;
+}
+.head-left{
+	float: left;
+	width: 15%;
+	height: 100%;
+	margin-left: 5%;
+	padding-left: 3%; 	
+	background: url("images/icon-1.png") no-repeat;
+	background-size: 15%;
+	background-position: center left;
+	color: #4E3A4F;
+	font-size: 20px;
+
+}
+.head-right{
+	float: right;
+	font-size: 14px;
+	margin-right: 6%;
+	padding-left:1.5%; 
+	background: url("images/icon-2.jpg") no-repeat;
+	background-position: center left;
+	color: #F15250;
+	cursor: pointer;
+}
+header ul{
+	right: 8%;
+	width: 40%;
+	height: 100%;
+	list-style: none;
+	position: absolute;
+}
+header ul li{
+	width: 17%;
+	float: left;
+	color: #78787A;
+	font-size: 14px;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+}
+.active,header ul li:hover{
+    border-bottom: 4px solid #E53C3C;
+}
+.firstbox{
+	width: 100%;
+	height: 650px;
+	background: url("images/pic01.jpg") no-repeat;
+	background-size: 100%;
+	margin-top: 2px;
+	padding: 15.5% 40% 10% 8.5%;
+	color: #fff;
+}
+.firstbox p{
+	opacity: 0.94;
+}
+.p1{
+	font-size: 60px;
+	line-height: 100px;
+}
+.p2{
+	font-size: 21px;
+	line-height: 30px;
+	margin: 0 0 65px 9px;
+}
+.firstbox span{
+	width: 350px;
+	height: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	background-color: #F15250;
+	display: inline-block;
+	text-align: center;
+}
+.firstbox span:hover{
+	background-color: #FF514F;
+	cursor: pointer;
+}
+.secondbox{
+	width: 100%;
+	height: 250px;
+	font-size: 0;
+}
+.part{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 0;
+	color: #767676;
+}
+.part img{
+	margin: 40px auto;
+}
+.detail{
+	width: 100%;
+	height: 50px;
+	padding: 0 25%;
+	margin: 0 auto;
+	border-right: 2px solid #767676;
+}
+.detail p{
+	font-size: 14px;
+}
+.thirdbox{
+	width: 100%;
+	height: 360px;
+	background-color: #EEECED;
+	text-align: center;
+	padding: 85px 0;
+	font-size: 50px;
+	line-height: 100px;
+	color: #9F9F9F;
+}
+.forthbox{
+	background: url("images/pic02.jpg") no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 360px;
+	color: #fff;
+	text-align: center;
+	padding: 50px 10%;
+}
+.forthbox p:first-child{
+	font-size: 24px;
+}
+.forthbox span{
+	width: 30px;
+	border: 1px  solid #fff; 
+	display: inline-block;
+}
+.forthbox p:last-of-type{
+	margin: 20px 0 50px 0;
+	font-size: 12px;
+}
+.forthbox form{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.hid{
+	height: 39px;
+	width: 11.2%;
+	background-color: #fff;
+	position: absolute;
+	top: 1px;
+	right: 0;
+	overflow: hidden;
+	display: block;
+}
+.arrow{
+	height: 100%;
+	width: 11.2%;
+	background: url("images/icon-7.png") no-repeat;
+	background-size: 20px;
+	background-position: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.select{
+	margin-right: 2.913%;
+	position: relative;
+	border: 1px solid #fff;
+}
+.select select{
+	width: 100%;
+	height: 40px;
+	border: none;
+	color: #ABABAB;
+	outline: none;
+	padding-left: 10px;
+}
+.select option{
+	font-size: 1em;
+	padding: 5px;
+	background-color: #E3E3E5;
+}
+.select option:focus{
+	background-color: #BF4E48;
+	color: #fff; 
+
+}
+
+.select,.acti-form button{
+	width: 22.81%;
+	height: 40px;
+	float: left;
+	background-color: #BF4E48;
+	border-radius: none;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+}
+.fifthbox{
+	width: 100%;
+	height: 590px;
+	padding: 100px 10%;
+
+}
+.pic-box{
+	display: inline-block;
+	width: 25%;
+	padding: 0 20px;
+	float: left;
+	text-align: center;
+}
+.pic-box img{
+	border: 1px solid #E0E0E0;
+	margin-bottom: 6px;
+}
+.pic-box h3{
+	font-size: 14px;
+	color: #2C2C2C;
+	line-height: 20px;
+}
+.pic-box h4{
+	font-size: 12px;
+	color: #878787;
+	line-height: 30px;
+}
+.pic-box h2{
+	font-size: 22px;
+	color: #282828;
+}
+.sixthbox{
+	width: 100%;
+	height: 566px;
+}
+.left-newworld{
+	float: left;
+	width: 66.6%;
+	height: 100%;
+	padding: 130px 0;
+	color: #fff;
+	background: url("images/pic07.jpg") no-repeat;
+	background-size: 100%;
+	position: relative;
+	text-align: center;
+}
+ .left-newworld a{
+    width:0;
+    height:0;
+    border-width:15px 25px 15px 0;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent;
+    position: absolute;
+    top: 268px;
+    right: 0;
+}
+.left-newworld h3{
+	font-size: 50px;
+	line-height: 56px;
+}
+.left-newworld h1{
+	font-size: 120px;
+	line-height: 126px;
+}
+.left-newworld span{
+	font-size: 24px;
+	line-height: 44px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.right-newworld{
+	float: right;
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+.carousel{
+	width: 68%;
+	height: 210px;
+	margin: 0 auto;
+	display: none;
+}
+.carousel-1{/*
+	display: block;*/
+}
+.carousel h2{
+	font-size: 20px;
+	margin: 50px 0 15px 0;
+}
+.carousel span{
+	color: #E74F4E;
+}
+.carousel p{
+	font-size: 12px;
+	line-height: 32px;
+	color: #878787;
+	text-align: left;
+}
+.detail-button{
+	font-size: 12px;
+	color: #E74F4E;
+	width: 105px;
+	height: 32px;
+	border: 1px solid #E74F4E;
+	margin: 0 auto;
+}
+.detail-button:hover{
+	cursor: pointer;
+	color: #FF514F;
+	border: 1px solid #FF514F;
+}
+.detail-button span{
+	line-height: 32px;
+}
+.right-newworld input[type="radio"]{
+	margin:3px;
+	display: inline-block;
+	position: relative;
+	top:370px;
+	z-index: 2;
+	opacity: 0;
+}
+.right-newworld input[type="radio"]:hover{
+	cursor: pointer;
+}
+.right-newworld .list{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background-color: #fff;
+	border: 1px solid #8C8C8C;
+	display: inline-block;
+	margin:3px;
+	position: relative;
+	top: 350px;
+	z-index: 1;
+}
+.right-newworld input[type="radio"]:nth-of-type(1):checked~.carousel-1{
+	display: block;
+}
+.right-newworld input[type="radio"]:nth-of-type(1):checked~.list:nth-of-type(1){
+	background-color: #8C8C8C;
+}
+.right-newworld input[type="radio"]:nth-of-type(2):checked~.carousel-2{
+	display: block;
+}
+.right-newworld input[type="radio"]:nth-of-type(2):checked~.list:nth-of-type(2){
+	background-color: #8C8C8C;
+}
+.right-newworld input[type="radio"]:nth-of-type(3):checked~.carousel-3{
+	display: block;
+}
+.right-newworld input[type="radio"]:nth-of-type(3):checked~.list:nth-of-type(3){
+	background-color: #8C8C8C;
+}
+.seventhbox{
+	width: 100%;
+	height: 520px;
+}
+.left-info,.right-info,.center-info{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-size: 22px;
+	padding: 170px 0;
+	line-height: 30px;
+}
+.line{
+	width: 30px;
+	border: 1px solid #E74F4E;
+	margin: 20px auto;
+}
+.seventhbox .detail-button-2{
+	width: 170px;
+	height: 45px;
+	line-height: 45px;
+	margin: 0 auto;
+}
+.seventhbox .detail-button-2:hover{
+	cursor: pointer;
+}
+.left-info{
+	color: #fff;
+	background-color: #E74F4E;
+}
+.left-info .line{
+	border: 1px solid #fff;
+}
+.left-info .detail-button-2{
+	border: 1px solid #fff;	
+}
+.center-info{
+	color: #2F2F2F;
+}
+.center-info .line{
+	border: 1px solid #ACACAC;
+}
+.center-info .detail-button-2{
+	color: #E74F4E;
+	border: 1px solid #E74F4E;	
+}
+.right-info{
+	background: url("images/pic08.jpg") no-repeat ;
+	background-size: 100%;
+	position: relative;
+}
+.right-info a{
+    width:0;
+    height:0;
+    border-width:15px 0 15px 25px;
+    border-style:solid;
+    border-color:transparent transparent transparent #fff;
+    position: absolute;
+    top: 248px;
+    left: 0;
+}
+.eighthbox{
+	width: 100%;
+	height: 790px;
+}
+.eighthbox .top-volun{
+	width: 100%;
+	height: 300px;
+	padding: 100px 0;
+	text-align: center;
+}
+.eighthbox .top-volun h2{
+	color: #2F2F2F;
+}
+.eighthbox .top-volun p{
+	font-size: 12px;
+	color: #ACACAC;
+}
+.eighthbox .bottom-volun{
+	width: 100%;
+	height: 490px;
+	padding: 0 10.9%;
+}
+.eighthbox .bottom-volun .left-volun{
+	width: 36%;
+	height: 100%;
+	float: left;
+}
+.eighthbox .left-volun .volun-detail{
+	height: 120px;
+}
+.eighthbox .left-volun .volun-detail h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #464648;
+	margin-bottom: 25px;
+}
+.eighthbox .left-volun .volun-detail p{
+	font-size: 12px;
+	color: #ACACAC;
+}
+.eighthbox .left-volun .volun-detail span{
+	float: right;
+	font-size: 12px;
+	color: #ACACAC;
+}
+.eighthbox .left-volun .detail-1{
+	height: 120px;
+}
+.eighthbox .left-volun .detail-2{
+	height: 120px;
+}
+.eighthbox .left-volun .detail-3{
+
+}
+.eighthbox .bottom-volun .right-volun{
+	width: 64%;
+	height: 100%;
+	float: right;
+}
+.eighthbox .right-volun form *{
+	background-color: #E3E3E3;
+	color: #464648;
+	margin: 0 0 20px 3%;
+	border: none;
+	padding: 10px 20px;
+}
+.eighthbox .right-volun form input[type="text"]{
+	width: 47%;
+	height: 40px;
+	float: left;
+	display: inline-block;
+}
+.eighthbox .right-volun form textarea{
+	width: 97%;
+	height: 120px;
+}
+.eighthbox .right-volun form input[type="submit"]{
+	width: 97%;
+	height: 40px;
+}
+.nighthbox{
+	width: 100%;
+	height: 360px;
+	color: #fff;
+	text-align: center;
+	background-color: #33363F;
+	padding: 90px 0 60px 0;
+}
+.nighthbox h3{
+	font-size: 24px;
+	line-height: 40px;
+}
+.nighthbox p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.nighthbox input{
+	height: 40px;
+	display: inline-block;
+}
+.nighthbox .text{
+	margin: 30px 0 30px 0;
+}
+.nighthbox .text input[type="email"]{
+	padding: 10px;
+	width: 33%;
+}
+.nighthbox .text input[type="submit"]{
+	width: 6.3%;
+	font-size: 16px;
+    color: #fff;
+    letter-spacing: 5px;
+    border: 0;
+    background-color: #75757F;
+    margin-left: -5px;
+}
+.nighthbox .icon{
+	width: 15%;
+	margin: 0 auto;
+}
+.nighthbox ul li{
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	background-color: #30303A;
+}
+footer span{
+	position: absolute;
+	left: 100px;
+	bottom: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+}
+/*.pic-box div{
+	border: 1px solid #E0E0E0;
+	padding: 10px 7px;
+}
+.pic-box div img{
+	width: 100%;
+}*/
+/*.testdiv{
+	overflow: hidden;
+	background: url("images/icon-7.png") no-repeat;
+	background-size: 20px;
+	background-position: right top;
+}
+.test{
+	width: 112.2% !important;
+	overflow: hidden;
+
+}*/

@@ -1,0 +1,154 @@
+*{margin: 0;padding: 0;box-sizing:border-box;font-family: 微软雅黑;}
+ul{list-style: none;}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #2189BE;
+}
+.logo{
+	padding: 12px 0 12px 50px;
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+}
+.search-bar{
+	width: 24%;
+	height: 100%;
+	line-height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.search-bar input{
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	background: url("images/search_icon.png") no-repeat #fff;
+	background-position: 20px 7px;
+	padding-left: 40px;
+	border: none;
+	outline: none;
+}
+header span{
+	width: 13%;
+	float: right;
+	background: url("images/login.png") no-repeat;
+	background-position: 0 21px;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 60px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.left-bar{
+	width: 20%;
+	height: 1000px;
+	float: left;
+	background-color: #2B2E3D;
+}
+.right-content{
+	width: 80%;
+	height: 100px;
+	float: right;
+	background-color: #EDEDEE;
+}
+.left-bar .section-1{
+	height: 110px;
+	text-align: center;
+	color: #B9BABE;
+}
+.left-bar .section-1 .circle-container{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 20px 0;
+	position: relative;
+}
+.left-bar .section-1 .outer-circle{
+	width: 60px;
+	height: 60px;
+	border: 2px solid #B9BABE;
+	border-radius: 30px;
+	position: absolute;
+	right: 25px;
+}
+.left-bar .section-1 .inner-circle{
+	width: 50px;
+	height: 50px;
+	background-color: #B9BABE;
+	border-radius: 25px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+.left-bar .section-1 .team-name{
+	width: 50%;
+	float: right;
+	line-height: 110px;
+	display: inline-block;
+	padding-left: 10px;
+	text-align: left;
+}
+.left-bar .section-2{
+	width: 100%;
+	height: 55px;
+}
+.left-bar .section-2 .left-collect,.left-bar .section-2 .right-fans{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	color: #576475;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.left-bar .section-2 span{
+	padding: 0 40px;
+	display: block;
+}
+.left-bar .section-2 .left-collect {
+	float: left;
+	text-align: right;
+}
+.left-bar .section-2 .right-fans {
+	float: right;
+	text-align: left;
+}
+.left-bar .section-2 .left-collect span{
+	border-right: 1.5px solid #323544;
+}
+.left-bar .section-2 .right-fans span{
+	border-left: 1.5px solid #323544;
+}
+.left-bar .section-3 {
+	padding: 0 0 0 18.5%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #6E8095;
+	line-height: 50px;
+}
+.left-bar .section-3 .layer-1>li:hover{
+	cursor: pointer;
+	color: #fff;
+}
+.left-bar .section-3 .layer-1 li{
+	padding: 0 10px;
+}
+.left-bar .section-3 .layer-2 li{
+	padding: 0 20px;
+}
+.left-bar .section-3 .layer-3 li{
+	padding: 0 35px;
+}
+.left-bar .section-3 .layer-1 .file:before{
+	content: url("images/file_open.png");
+}
+.left-bar .section-3 .layer-2>li>a:before{
+	content: url("images/close_arrow.png");
+}
+.left-bar .section-3 .layer-2>li>a:after{
+	content: url("images/file_close.png");
+}
+.left-bar .section-3 .layer-3>li:before{
+	content: url("images/doc_close.png");
+}

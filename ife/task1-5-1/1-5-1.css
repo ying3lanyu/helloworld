@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;}
+body{background-color: #E6E6E6;font-family: 微软雅黑;}
+ul{list-style: none;}
+.head{
+	background-color: #89B729;
+	width: 100%;
+	height: 60px;
+}
+.head img{
+	margin:5px 40px;
+	height: 50px;
+}
+.head ul{
+	position: absolute;
+	top: 0;right: 20px;
+}
+.head ul li{
+	margin-right:20px;
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 20px 10px;
+}
+.head ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8em; 
+}
+.head ul li:hover{
+	background-color: white;
+}
+.right-box{
+	width: 330px;
+	float: right;
+	margin: 30px;
+	padding: 30px;
+}
+.right-box,.content{
+	background-color: #fff;
+	box-shadow:2px 2px 2.5px #898989; 
+}
+.content{
+	margin: 30px 450px 30px 30px;padding:45px 30px;
+	
+}
+.content h2,.content h3,.content span,.content p{
+	margin-bottom: 20px;padding-right: 20px;
+}
+.content h2{
+	font-weight: bold; 
+} 
+.content h3,.content span{
+	color: #686D57;
+}
+.content span{
+	font-size: 0.8em;
+}
+.content p{
+	margin-top: 20px;
+	line-height: 20px;
+	text-indent: 2em;
+}
+.alist {
+	font-size: 1.5em;
+	margin-top:30px; 
+}
+.alist li{
+	padding:3px 30px;
+}
+.blist {
+	margin: 30px;
+	font-size: 1em;
+	font-weight: bold;
+}
+.imgdiv{
+	width: 120px;
+	border:1px solid #CBCBCB;
+	box-shadow: 1px 1px 1px gray;
+	padding: 15px;margin: 15px;
+	text-align: center;
+	display: inline-block;
+}
+.imgdiv img{
+	width: 120px;
+	padding-top:10px;
+}
+.tbp{
+	text-indent: 0 !important;
+	line-height: 0 !important;
+}
+.tbcontent{
+	width: 100%;
+	border-collapse:collapse;
+}
+.tbcontent th{
+	text-align: left;
+	background-color: black;
+	color: white;
+	padding: 3px;
+}
+.tbcontent td,th{
+	padding: 3px;
+	border:1px solid #cbcbcb;
+}
+.lasttr td{
+	border:0;
+	background-color: #DEDEDE;
+}
+
+.formdiv div{
+	margin-bottom: 10px;
+	font-size: 0.8em; 
+}
+.formdiv p{
+	color: gray;
+	margin-left: 35%;
+	padding-left: 15px;
+	text-indent: 0;
+}
+.formdiv label{
+	width: 35%; 
+	padding-right: 15px;
+	float: left;
+	text-align: right;
+}
+.formdiv textarea{
+	width: 60%;
+	height: 120px;
+}
+.right-box h3{
+	padding: 10px;
+	border-left: 4px solid gray;
+}
+.btn{
+	width: 100%;
+	height: 40px;
+	margin: 10px 0;
+	background-color: #89B729;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 13px;
+}
+.btn:hover{
+	background-color: #cbcbcb;
+	cursor: hand;
+}
+footer{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	color: white;
+	background-color: #89B729;
+	line-height: 50px;
+	font-size: 0.9em;
+}
+footer p{
+	text-indent: 0;
+}

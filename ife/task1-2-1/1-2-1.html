@@ -1,0 +1,281 @@
+<html>
+	<head>
+		<title>task 1-2-1</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			body{background-color: #E6E6E6;font-family: 微软雅黑;}
+			ul{list-style: none;}
+			.head{
+				background-color: #89B729;
+				width: 100%;
+				height: 60px;
+			}
+			.head img{
+				margin:5px 40px;
+				height: 50px;}
+			.head ul{
+				position: absolute;
+				top: 0;right: 20px;
+			}
+			.head ul li{
+				margin-right:20px;
+				text-align: center;
+				display: block;
+				float: left;
+				padding: 20px 10px;
+			}
+			.head ul li a{
+				text-decoration: none;
+				color: black;
+				font-size: 0.8em; 
+			}
+			.head ul li:hover{
+				background-color: white;
+			}
+			.content{
+				margin: 30px;padding:45px 30px;
+				background-color: #fff;
+				box-shadow:2px 2px 2.5px #898989; 
+				/*border-bottom,border-right:3px solid #A0A0A0; */
+				/*border-style: outset;*/
+			}
+			.content h2,.content h3,.content span,.content p{
+				margin-bottom: 20px;padding-right: 20px;
+			}
+			.content h2{
+				font-weight: bold; 
+			} 
+			.content h3,.content span{
+				color: #686D57;
+			}
+			.content span{
+				font-size: 0.8em;
+			}
+			.content p{
+				margin-top: 20px;
+				line-height: 20px;
+				text-indent: 2em;
+			}
+			.alist {
+				font-size: 1.5em;
+				margin-top:30px; 
+			}
+			.alist li{
+				padding:3px 30px;
+			}
+			.blist {
+				margin: 30px;
+				font-size: 1em;
+				font-weight: bold;
+			}
+			.imgdiv{
+				width: 300px;
+				border:1px solid #CBCBCB;
+				box-shadow: 1px 1px 1px gray;
+				padding: 15px;margin: 30px 50px;
+				text-align: center;
+			}
+			.imgdiv img{
+				width: 270px;
+				padding-top:15px;
+			}
+			.tbp{
+				text-indent: 0 !important;
+				line-height: 0 !important;
+			}
+			.tbcontent{
+				width: 100%;
+				border-collapse:collapse;
+			}
+			.tbcontent th{
+				text-align: left;
+				background-color: black;
+				color: white;
+				padding: 3px;
+			}
+			.tbcontent td,th{
+				padding: 3px;
+				border:1px solid #cbcbcb;
+			}
+			.lasttr td{
+				border:0;
+				background-color: #DEDEDE;
+			}
+			.content h3{
+				padding: 15px;
+				color: black;
+				border-left: 4px solid gray;
+			}
+			.formdiv div{
+				margin-bottom: 10px;
+				font-size: 0.8em; 
+			}
+			.formdiv p{
+				color: gray;
+				margin-left: 35%;
+				padding-left: 15px;
+				text-indent: 0;
+			}
+			.formdiv label{
+				width: 35%; 
+				padding-right: 15px;
+				float: left;
+				text-align: right;
+			}
+			.formdiv textarea{
+				width: 60%;
+				height: 120px;
+			}
+			.btn{
+				width: 100%;
+				height: 50px;
+				background-color: #89B729;
+				color: white;
+				font-size: 1em;
+				font-weight: bold;
+				border-radius: 13px;
+			}
+			.btn:hover{
+				background-color: #cbcbcb;
+				cursor: hand;
+			}
+			.sexcheck input{}
+			footer{
+				width: 100%;
+				height: 70px;
+				text-align: center;
+				color: white;
+				background-color: #89B729;
+				line-height: 50px;
+				font-size: 0.9em;
+			}
+			footer p{
+				text-indent: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<img src="http://www.easyicon.net/api/resizeApi.php?id=1165149&size=64">
+			<nav>
+				<ul>
+					<li><a href="">链接一</a></li>
+					<li><a href="">链接二</a></li>
+					<li><a href="">链接三</a></li>
+					<li><a href="">链接四</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content">
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">作者信息</span><span class="ptime">发表日期</span>
+			<p>这是一个段落,这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长的段落，<a href="#" target="_blank">这里有一个链接不知道去哪里</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="#" target="_blank">这里有一个链接不知道去哪里</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+		</div>
+		<div class="content">
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">作者信息</span><span class="ptime">发表日期</span>
+			<p>这是一个段落,这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长的段落，<a href="#" target="_blank">这里有一个链接不知道去哪里</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			<ul class="alist">
+				<li>列表项目</li>
+				<li>列表项目</li>
+				<li>列表项目</li>
+			</ul>
+		</div>
+		<div class="content">
+			<h2>图片</h2>
+			<div class="imgdiv">
+				<h4>好看的图片</h4>
+				<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			</div>
+			<div class="imgdiv">
+				<h4>好看的图片</h4>
+				<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			</div>
+			<div class="imgdiv">
+				<h4>好看的图片</h4>
+				<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			</div>
+			<div class="imgdiv">
+				<h4>好看的图片</h4>
+				<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			</div>
+			<div class="imgdiv">
+				<h4>好看的图片</h4>
+				<img src="http://b.hiphotos.baidu.com/zhidao/pic/item/9213b07eca80653885c04cb395dda144ad34826c.jpg">
+			</div>
+		</div>
+		<div class="content">
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">作者信息</span><span class="ptime">发表日期</span>
+			
+			<ul class="blist">
+				<li>1.排名1</li>
+				<li>2.排名2</li>
+				<li>3.排名3</li>
+			</ul>
+			<p class="tbp">下面是一个表格</p>
+			<table class="tbcontent">
+				<tr><th>表头</th><th>表头</th><th>表头</th></tr>
+				<tr><td>表内容单元</td><td>表内容单元</td><td>表内容单元</td></tr>
+				<tr><td>表内容单元</td><td>表内容单元</td><td>表内容单元</td></tr>
+				<tr><td>表内容单元</td><td>表内容单元</td><td>表内容单元</td></tr>
+				<tr><td>表内容单元</td><td>表内容单元</td><td>表内容单元</td></tr>
+				<tr><td>表内容单元</td><td>表内容单元</td><td>表内容单元</td></tr>
+				<tr class="lasttr"><td>总计</td><td colspan="2">1000</td></tr>
+			</table>
+		</div>
+		<div class="content">
+			<h3>这是一个可爱的侧边栏，这是标题</h3>
+			<form class="formdiv" action="" method="post">
+				<div>
+					<label>请输入邮箱地址</label>
+					<input type="text">
+					<p>邮箱地址请按要求输入</p>
+				</div>
+				<div>
+					<label>请输入密码</label>
+					<input type="password">
+				</div>
+				<div>
+					<label>请重复输入密码</label>
+					<input type="password">
+					<p>密码请为6~16位英文数字</p>
+				</div>
+				<div class="sexcheck">
+					<label>性别</label>
+					<input type="radio" value="male" checked="checked" name="sex">男
+					<input type="radio" value="female" name="sex">女
+				</div>
+				<div>
+					<label>城市</label>
+					<select>
+						<option value="beijing" selected="selected">北京</option>
+						<option>北京</option>
+						<option>北京</option>
+					</select>
+				</div>
+				<div class="sportcheck">
+					<label>爱好</label>
+					<input type="checkbox" value="sport">&nbsp运动
+					<input type="checkbox" value="art">&nbsp艺术
+					<input type="checkbox" value="science">&nbsp科学
+				</div>
+				<div>
+					<label>个人描述</label>
+					<textarea rows="2" cols="20">请输入你的个人描述(* ￣3)(ε￣ *)</textarea> 
+				</div>
+				<input class="btn" type="button" value="确认提交">
+			</form>
+		</div>
+		<footer>
+			<p>版权所有©猫大璇</p>
+		</footer>
+	</body>
+</html>
