@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="RoomMonitoring"
+  id="myeclipse.1457057729836"
+  context-root="/RoomMonitoring"
+  j2ee-spec="5.0"
+  archive="RoomMonitoring.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

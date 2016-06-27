@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>user.web.LoginServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LOGIN</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>MachineinfoServlet</servlet-name>
+  	<servlet-class>user.web.MachineinfoServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+  	<servlet-name>MachineinfoServlet</servlet-name>
+  	<url-pattern>/Machineinfo</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>MachineinfoJsonServlet</servlet-name>
+  	<servlet-class>user.web.MachineinfoJsonServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+  	<servlet-name>MachineinfoJsonServlet</servlet-name>
+  	<url-pattern>/Jsonpage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>MachineinfoJsonOneServlet</servlet-name>
+  	<servlet-class>user.web.MachineinfoJsonOneServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+  	<servlet-name>MachineinfoJsonOneServlet</servlet-name>
+  	<url-pattern>/Jsonone</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>MachineinfoJsonAnaServlet</servlet-name>
+  	<servlet-class>user.web.MachineinfoJsonAnaServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+  	<servlet-name>MachineinfoJsonAnaServlet</servlet-name>
+  	<url-pattern>/Jsonana</url-pattern>
+  </servlet-mapping>
+</web-app>
